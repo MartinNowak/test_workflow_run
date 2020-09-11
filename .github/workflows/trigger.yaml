@@ -1,0 +1,9 @@
+name: Schedule
+on: push
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: dummy
+        run: echo trigger
